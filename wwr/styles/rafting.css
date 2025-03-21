@@ -12,7 +12,7 @@ body{
     margin: auto;
 }
 .container {
-    max-width: 11oopx;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -78,7 +78,7 @@ nav a {
     background: rgba(255, 255, 255, 0.95);
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0.);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0);
     text-align: left;
     display: flex;
     align-items: center;
@@ -91,5 +91,5 @@ nav a {
 }
 .sociallinks img {
     width: 30px;
-    margin: 0 1opx;
+    margin: 0 10px;
 }
