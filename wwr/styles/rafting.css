@@ -1,49 +1,18 @@
-:root{
+:root {
     --primary-color: #33658aff;
     --secondary-color: #78c0e0ff;
-    --Accent1-Color: #cab6cdff;
+    --accent1-color: #cab6cdff;
     --accent-color: #ba8f95ff;
-    --text-color: #ffffff;
 }
-body{
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
     max-width: 1200px;
-    font-family: 'poppins', sans-serif;
-    color: var(--primary-color);
     margin: auto;
 }
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-h1, h2, h3 {
-    font-family: 'poppins', sans-serif;
-    font-weight: 100;
-    color: var(--primary-color);
-}
-p{
-    font-family: 'poppins', sans-serif;
-    font-weight: 400;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    color: var(--primary-color);
-}
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--primary-color);
-    padding: 15px;
-}
-header img {
-    height: 60px;
-}
-nav a {
-    color: var(--accent-color);
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-}
+
 .hero {
     position: relative;
     width: 100vw;
@@ -51,25 +20,27 @@ nav a {
     height: 450px;
     overflow: hidden;
 }
+
 .hero img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
-    float: right;
 }
+
 .hero h1 {
     position: absolute;
     top: 15%;
     left: 50%;
-    transform:translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     font-size: 3rem;
-    color: var(--text-color);
-    background-color: black;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 10px 30px;
     border-radius: 5px;
-    text-align: center
+    text-align: center;
 }
+
 .hero article {
     position: absolute;
     bottom: 10%;
@@ -79,18 +50,60 @@ nav a {
     background: rgba(255, 255, 255, 0.95);
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0);
-    text-align: left;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
 }
+
 .hero article img {
-    float: right;
     width: 100px;
     border-radius: 50%;
     margin-right: 15px;
 }
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.adventure-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+.adventure-images img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: var(--secondary-color);
+    color: white;
+}
+
+footer .sociallinks a {
+    text-decoration: none;
+}
+
 .sociallinks img {
     width: 30px;
-    margin: 0 10px;
+    height: 30px;
 }
