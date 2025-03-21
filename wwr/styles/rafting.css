@@ -56,6 +56,7 @@ nav a {
     height: 100%;
     object-fit: cover;
     display: block;
+    float: right;
 }
 .hero h1 {
     position: absolute;
