@@ -116,6 +116,52 @@ figcaption {
     margin-top: 5px;
 }
 
+.address-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap; /* wraps on smaller screens */
+    margin: 1rem 0;
+}
+
+.address-media img,
+.address-media iframe {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.employee-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.employee-gallery figure {
+    width: 180px; 
+    text-align: center;
+    margin: 0;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.employee-gallery img {
+    width: 100%; 
+    height: 180px; 
+    object-fit: cover; 
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
 footer {
     background-color: var(--primary-color);
     text-align: center;
@@ -140,3 +186,39 @@ footer p {
     width: 30px;
     height: auto;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+}
+
+button[type="submit"] {
+    background-color: #0077cc;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #005fa3;
+}
+
