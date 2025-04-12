@@ -222,3 +222,52 @@ button[type="submit"]:hover {
     background-color: #005fa3;
 }
 
+.home-hero{
+    position: relative;
+    text-align: center;
+}
+
+.home-hero img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.home-hero-msg{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .bookings {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .bookings {
+    padding: 1rem 2rem;
+    background-color: #2196f3;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+  }
+
