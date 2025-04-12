@@ -257,12 +257,12 @@ button[type="submit"]:hover {
     height: auto;
   }
   
-  .bookings {
+  .trips-call {
     text-align: center;
     margin: 2rem 0;
   }
   
-  .bookings {
+  .trips-call {
     padding: 1rem 2rem;
     background-color: #2196f3;
     color: white;
