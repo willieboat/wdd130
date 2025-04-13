@@ -264,7 +264,6 @@ button[type="submit"]:hover {
   
   .trips-call {
     padding: 1rem 2rem;
-    background-color: #2196f3;
     color: white;
     text-decoration: none;
     border-radius: 8px;
@@ -311,7 +310,6 @@ button[type="submit"]:hover {
     padding: 0 1rem;
 }
 
-/* === Trips Table Section === */
 .trip-table {
     padding: 2rem;
     overflow-x: auto;
@@ -352,21 +350,6 @@ button[type="submit"]:hover {
 
 .trip-table td a:hover {
     background-color: var(--accent-color);
-}
-
-/* === Wireframe Link in Footer (only for trips.html) === */
-footer .wireframe-link {
-    margin-left: 1rem;
-}
-
-footer .wireframe-link img {
-    width: 30px;
-    vertical-align: middle;
-    transition: transform 0.3s;
-}
-
-footer .wireframe-link img:hover {
-    transform: scale(1.1);
 }
 
 
