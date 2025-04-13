@@ -39,10 +39,10 @@ nav a {
     align-items: end;
 }
 
-
 .hero {
     text-align: center;
     padding: 20px;
+    background-color: var(--accent1-color)
 }
 
 .hero h1 {
@@ -269,7 +269,7 @@ button[type="submit"]:hover {
     border-radius: 8px;
     display: inline-block;
   }
-  /* === Trip Cards Section === */
+  
 .trip-section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
