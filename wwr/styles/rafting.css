@@ -270,4 +270,103 @@ button[type="submit"]:hover {
     border-radius: 8px;
     display: inline-block;
   }
+  /* === Trip Cards Section === */
+.trip-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f4f9ff;
+}
+
+.trip {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.trip:hover {
+    transform: translateY(-5px);
+}
+
+.trip img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.trip h3 {
+    color: var(--primary-color);
+    margin-top: 1rem;
+}
+
+.trip p {
+    color: #333;
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+
+/* === Trips Table Section === */
+.trip-table {
+    padding: 2rem;
+    overflow-x: auto;
+}
+
+.trip-table h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.trip-table th,
+.trip-table td {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.trip-table td a {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.trip-table td a:hover {
+    background-color: var(--accent-color);
+}
+
+/* === Wireframe Link in Footer (only for trips.html) === */
+footer .wireframe-link {
+    margin-left: 1rem;
+}
+
+footer .wireframe-link img {
+    width: 30px;
+    vertical-align: middle;
+    transition: transform 0.3s;
+}
+
+footer .wireframe-link img:hover {
+    transform: scale(1.1);
+}
+
 
