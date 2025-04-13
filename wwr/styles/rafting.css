@@ -336,7 +336,7 @@ button[type="submit"]:hover {
 }
 
 .trip-table th {
-    background-color: var(--secondary-color);
+    background-color:var(--primary-color);
     color: #fff;
 }
 
